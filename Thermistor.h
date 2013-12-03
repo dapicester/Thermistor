@@ -33,7 +33,7 @@ public:
      * @param r0 The resistance at t0 - from datasheet (ohms).
      * @param t0 The reference temperature - from datasheet (C degrees)
      */
-    Thermistor(int pin, float beta = 4300.0, int r0 = 10000, int t0 = 25);
+    Thermistor(int pin, float beta = 3435.0, int r0 = 10000, int t0 = 25);
 
     /// Get the temperature.
     float temperature();
